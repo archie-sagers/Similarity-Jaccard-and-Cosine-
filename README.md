@@ -1,2 +1,4 @@
 # Similarity-Jaccard-and-Cosine-
-A program that computes the Jaccard and Cosine similarity of multiple documents
+A program that computes the Jaccard and Cosine similarity of multiple documents.
+
+It contains two python programs that compare extracts from Dickens, Mary Shelley and Pushkin.
