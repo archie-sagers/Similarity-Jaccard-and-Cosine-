@@ -27,16 +27,16 @@ def make_matrix(list_of_dicts):
             allfeatures[feat]=1
     
     dimensions=list(allfeatures.keys())
-    #don't strictly need to sort it - but it is good practise to make sure it is reproducible
+    
     sorted(dimensions)
     
     matrix=[]
-    #each row in the matrix will be one of the dimensions
+ 
     for dimension in dimensions:
         row=[]
-        #look up the appropriate value for each document
+
         for docdict in list_of_dicts:
-            row.append(docdict.get(dimension,0)) #this will append the document's value if present, 0 otherwise
+            row.append(docdict.get(dimension,0)) 
         matrix.append(row)
         
         
